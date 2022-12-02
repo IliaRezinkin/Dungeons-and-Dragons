@@ -1,12 +1,38 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
-/* Blocks */ 
+/* Blocks */
 @import '../blocks/page/page.css';
-/* Header */ 
+/* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__book-button/header__book-button.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__subtitle/header__subtitle.css';
+@import '../blocks/header/__title-group/header__title-group.css';
 /* Main */
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/footer/__author/footer__author.css';
+@import '../blocks/footer/__date/footer__date.css';
+@import '../blocks/footer/__info/footer__info.css';
+/* Nav */
+@import '../blocks/nav/nav.css';
+@import '../blocks/nav/__item/nav__item.css';
+@import '../blocks/nav/__list/nav__list.css';
+@import '../blocks/nav/__logo/nav__logo.css';
+@import '../blocks/nav/__panel/nav__panel.css';
+@import '../blocks/nav/__phone-number/nav__phone-number.css';
+@import '../blocks/nav/__picture/nav__picture.css';
+/* About */
+@import '../blocks/about/about.css';
+@import '../blocks/about/__column/about__column.css';
+@import '../blocks/about/__descr-title/about__descr-title.css';
+@import '../blocks/about/__descr/about__descr.css';
+@import '../blocks/about/__img/about__img.css';
+@import '../blocks/about/__pictures/about__pictures.css';
+@import '../blocks/about/__title/about__title.css';
+@import '../blocks/about/__txt/about__txt.css';
+/* Container */
+@import '../blocks/container/container.css';

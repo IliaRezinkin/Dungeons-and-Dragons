@@ -1,0 +1,6 @@
+.nav__phone-number {
+  font-size: 17px;
+  line-height: 26px;
+  text-decoration: none;
+  color: var(--text-white);
+}

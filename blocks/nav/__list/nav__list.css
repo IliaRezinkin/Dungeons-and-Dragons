@@ -1,0 +1,10 @@
+.nav__list {
+  display: flex;
+  list-style: none;
+  width: 37.8vw;
+  font-size: 20px;
+  justify-content: space-between;
+  margin: 0;
+  line-height: 30px;
+  margin-left: 28px;
+}

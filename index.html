@@ -11,63 +11,71 @@
 
 <body class="page">
   <header class="header">
-    <nav class="nav header__nav">
-      <div class="nav__logo">
-        <img src="images/header/logo.svg" alt='Логотип игры "Dungeons and Dragons"' class="nav__picture">
+    <div class="container">
+      <nav class="nav header__nav">
+        <div class="nav__logo">
+          <img src="images/header/logo.svg" alt='Логотип игры "Dungeons and Dragons"' class="nav__picture">
+        </div>
+        <div class="nav__panel">
+          <ul class="nav__list">
+            <li class="nav__item">Home</li>
+            <li class="nav__item">About</li>
+            <li class="nav__item">Photo</li>
+            <li class="nav__item">Contacts</li>
+          </ul>
+          <a href="tel:+3-141-592-65-35" class="nav__phone-number">+3-141-592-65-35</a>
+        </div>
+      </nav>
+      <div class="header__title-group">
+        <h2 class="header__subtitle">Not the game. The life</h2>
+        <h1 class="header__title">Dungeons and Dragons</h1>
+        <button class="header__book-button">Book the masters</button>
       </div>
-      <div class="nav__panel">
-        <ul class="nav__list">
-          <li class="nav__item">Home</li>
-          <li class="nav__item">About</li>
-          <li class="nav__item">Photo</li>
-          <li class="nav__item">Contacts</li>
-        </ul>
-        <a href="tel:+3-141-592-65-35" class="nav__phone-number">+3-141-592-65-35</a>
-      </div>
-    </nav>
-    <div class="header__title-group">
-      <h2 class="header__subtitle">Not the game. The life</h2>
-      <h1 class="header__title">Dungeons and Dragons</h1>
-      <button class="header__book-button">Book the masters</button>
     </div>
   </header>
   <main class="main">
-    <section class="about">
-      <h2 class="about__title">О настольной игре</h2>
-      <div class="about__descr">
-        <div class="about__column">
-          <h3 class="about__descr-title">Что такое Днд?</h3>
-          <p class="about__txt">
-            d&d – это мир фантазии и воображения, где мы все вместе стираем границы реальности, отправляясь на
-            испытания,
-            на которые мы никогда бы не решились в реальной жизни. Мы переживаем за своих персонажей как за самих себя и
-            испытываем настоящие эмоции, ведь происходящее в этом мире пропитано нашим безграничным воображением. Но
-            самое
-            главное, что играя в d&d, люди могут пообщаться, откинуть повседневные проблемы в сторону и просто весело
-            провести время.
-          </p>
+    <div class="container">
+      <section class="about">
+        <h2 class="about__title">О настольной игре</h2>
+        <div class="about__descr">
+          <div class="about__column">
+            <h3 class="about__descr-title">Что такое Днд?</h3>
+            <p class="about__txt">
+              d&d – это мир фантазии и воображения, где мы все вместе стираем границы реальности, отправляясь на
+              испытания,
+              на которые мы никогда бы не решились в реальной жизни. Мы переживаем за своих персонажей как за самих себя и
+              испытываем настоящие эмоции, ведь происходящее в этом мире пропитано нашим безграничным воображением. Но
+              самое
+              главное, что играя в d&d, люди могут пообщаться, откинуть повседневные проблемы в сторону и просто весело
+              провести время.
+            </p>
+          </div>
+          <div class="about__column">
+            <h3 class="about__descr-title">Чем отличается от других настолок?</h3>
+            <p class="about__txt">От настольных игр d&d отличается очень сильно, в первую очередь это связано с
+              отсутствием
+              ограничений: все будет происходить так как вы захотите. Хотите стать джедаем и побывать на Татуине –
+              пожалуйста! Хотите постараться пережить зомби апокалипсис – легко! Но в любом из миров вас встретят
+              трудности,
+              которые придется преодолеть, и сложные решения, которые кардинально повлияют на вашу дальнейшую жизнь (жизнь
+              вашего персонажа).</p>
+          </div>
         </div>
-        <div class="about__column">
-          <h3 class="about__descr-title">Чем отличается от других настолок?</h3>
-          <p class="about__txt">От настольных игр d&d отличается очень сильно, в первую очередь это связано с
-            отсутствием
-            ограничений: все будет происходить так как вы захотите. Хотите стать джедаем и побывать на Татуине –
-            пожалуйста! Хотите постараться пережить зомби апокалипсис – легко! Но в любом из миров вас встретят
-            трудности,
-            которые придется преодолеть, и сложные решения, которые кардинально повлияют на вашу дальнейшую жизнь (жизнь
-            вашего персонажа).</p>
+        <div class="about__pictures">
+          <img class="about__img" src="images/about/img1.jpg" alt="Фигуры настольной игры">
+          <img class="about__img" src="images/about/img2.jpg" alt="Игральные кости">
+          <img class="about__img" src="images/about/img3.jpg" alt="Игровой процесс">
         </div>
-      </div>
-      <div class="about__pictures">
-        <img src="images/about/img1.jpg" alt="Фигуры настольной игры">
-        <img src="images/about/img2.jpg" alt="Игральные кости">
-        <img src="images/about/img3.jpg" alt="Игровой процесс">
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
   <footer class="footer">
-    <p class="footer__date">©1974 the birth of d&d</p>
-    <p class="footer__author">Game master & Илья Резинкин</p>
+    <div class="container">
+      <div class="footer__info">
+        <p class="footer__date">©1974 the birth of d&d</p>
+        <p class="footer__author">Game master & Илья Резинкин</p>
+      </div>
+    </div>
   </footer>
   <script src="./script/index.js"></script>
 </body>

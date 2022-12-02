@@ -1,3 +1,7 @@
 .header{
-  
+  min-height: 760px;
+  background: top / 100% no-repeat url('../../images/header/header-bg.jpg');
+  color: var(--text-white);
+  text-transform: uppercase;
+  font-family: "Anton";
 }

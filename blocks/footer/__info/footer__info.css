@@ -1,0 +1,9 @@
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  width: 40.8vw;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}

@@ -1,0 +1,5 @@
+.about__pictures {
+  display: flex;
+  margin-top: 51px;
+  justify-content: space-between;
+}

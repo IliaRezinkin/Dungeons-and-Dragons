@@ -1,0 +1,7 @@
+.nav__panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 97%;
+  letter-spacing: 0.1em;
+}
