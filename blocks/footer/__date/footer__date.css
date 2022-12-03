@@ -1,0 +1,8 @@
+.footer__date {
+
+}
+@media (max-width: 767px) {
+  .footer__date {
+    margin-bottom: 0;
+  }
+}

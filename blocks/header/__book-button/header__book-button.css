@@ -29,3 +29,10 @@
     margin-top: 2px;
   }
 }
+@media (max-width: 767px) {
+  .header__book-button {
+    width: 154px;
+    margin-top: 11px;
+    height: 35px;
+  }
+}

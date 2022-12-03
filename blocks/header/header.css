@@ -16,3 +16,8 @@
     background: top / 167% no-repeat url('../../images/header/header-bg.jpg');
   }
 }
+@media (max-width: 767px) {
+  .header {
+    background: top / 267% no-repeat url('../../images/header/header-bg.jpg');
+  }
+}

@@ -15,3 +15,8 @@
     line-height: 83px;
   }
 }
+@media (max-width: 767px) {
+  .header__title {
+    line-height: 103px;
+  }
+}

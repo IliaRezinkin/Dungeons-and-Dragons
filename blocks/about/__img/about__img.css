@@ -7,3 +7,10 @@
     height: 49vw;
   }
 }
+@media (max-width: 767px) {
+  .about__img {
+    object-fit: cover;
+    width: 206px;
+    height: 350px;
+  }
+}

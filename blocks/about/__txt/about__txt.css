@@ -17,3 +17,8 @@
     margin-top: 16px;
   }
 }
+@media (max-width:767px) {
+  .about__txt {
+    margin-top: 23px;
+  }
+}

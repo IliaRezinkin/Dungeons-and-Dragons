@@ -26,3 +26,9 @@
     margin-left: 58px;
   }
 }
+@media (max-width: 767px) {
+  .nav__list {
+    margin-left: 6px;
+    width: 46vw;
+  }
+}

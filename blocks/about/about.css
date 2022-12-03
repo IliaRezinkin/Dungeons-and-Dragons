@@ -2,3 +2,8 @@
   font-family: "Open Sans";
   padding-top: 82px;
 }
+@media (max-width: 767px) {
+  .about {
+    padding-top: 51px;
+  }
+}

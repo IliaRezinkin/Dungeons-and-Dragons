@@ -1,3 +1,9 @@
 .header__nav {
   padding-top: 50px;
 }
+
+@media (max-width: 767px) {
+  .header__nav {
+    padding-top: 46px;
+  }
+}

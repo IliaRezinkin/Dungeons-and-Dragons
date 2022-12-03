@@ -17,3 +17,16 @@
     margin-top: 109px;
   }
 }
+@media (max-width:767px) {
+  .about__column {
+    width: 87vw;
+    margin-top: 31px;
+  }
+  .about__column:first-child {
+    margin-top: 65px;
+  }
+  .about__column:nth-child(2) .about__img {
+    width: 418px;
+    height: 398px;
+  }
+}

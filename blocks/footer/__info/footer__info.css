@@ -18,3 +18,8 @@
     width: 69vw;
   }
 }
+@media (max-width: 767px) {
+  .footer__info {
+    display: block;
+  }
+}

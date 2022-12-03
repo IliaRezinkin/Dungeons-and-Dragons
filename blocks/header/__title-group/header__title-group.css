@@ -12,3 +12,8 @@
     margin-top: 28vh;
   }
 }
+@media (max-width: 767px) {
+  .header__title-group {
+    margin-top: 29vh;
+  }
+}
