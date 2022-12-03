@@ -4,3 +4,9 @@
   text-decoration: none;
   color: var(--text-white);
 }
+
+@media (max-width: 479px) {
+  .nav__phone-number {
+    display: none;
+  }
+}

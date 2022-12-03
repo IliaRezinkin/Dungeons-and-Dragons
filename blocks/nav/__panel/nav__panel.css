@@ -12,3 +12,8 @@
     line-height: 21px;
   }
 }
+@media (max-width: 479px) {
+  .nav__panel {
+    min-width: 0;
+  }
+}

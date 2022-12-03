@@ -26,7 +26,18 @@
     margin-top: 65px;
   }
   .about__column:nth-child(2) .about__img {
-    width: 418px;
+    width: 87vw;
     height: 398px;
+  }
+}
+@media (max-width: 479px) {
+  .about__column {
+    width: 90vw;
+  }
+  .about__column {
+    margin-top: 44px;
+  }
+  .about__column:first-child {
+    margin-top: 52px;
   }
 }

@@ -7,3 +7,8 @@
     padding-top: 51px;
   }
 }
+@media (max-width: 479px) {
+  .about {
+    padding-top: 20px;
+  }
+}

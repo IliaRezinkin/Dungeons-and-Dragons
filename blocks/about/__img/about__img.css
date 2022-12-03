@@ -10,7 +10,13 @@
 @media (max-width: 767px) {
   .about__img {
     object-fit: cover;
-    width: 206px;
+    width: 43vw;
     height: 350px;
+  }
+}
+@media (max-width: 479px) {
+  .about__img {
+    width: 44vw;
+    height: 257px;
   }
 }

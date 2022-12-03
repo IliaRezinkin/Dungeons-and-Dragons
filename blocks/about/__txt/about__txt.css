@@ -22,3 +22,8 @@
     margin-top: 23px;
   }
 }
+@media (max-width:479px) {
+  .about__txt {
+    margin-top: 18px;
+  }
+}

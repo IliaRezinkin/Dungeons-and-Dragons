@@ -23,3 +23,8 @@
     display: block;
   }
 }
+@media (max-width: 479px) {
+  .footer__info {
+    width: 85vw;
+  }
+}

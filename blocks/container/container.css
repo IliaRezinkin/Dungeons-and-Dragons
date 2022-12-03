@@ -17,3 +17,8 @@
     padding: 0 31px;
   }
 }
+@media (max-width: 479px) {
+  .container {
+    padding: 0 16px;
+  }
+}

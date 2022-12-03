@@ -1,0 +1,11 @@
+.footer__phone-number {
+  display: none;
+}
+@media (max-width: 479px) {
+  .footer__phone-number {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+  }
+}

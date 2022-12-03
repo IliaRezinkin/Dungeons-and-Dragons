@@ -21,3 +21,8 @@
     background: top / 267% no-repeat url('../../images/header/header-bg.jpg');
   }
 }
+@media (max-width: 479px) {
+  .header {
+    background: top / 400% no-repeat url('../../images/header/header-bg.jpg');
+  }
+}

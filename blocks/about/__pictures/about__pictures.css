@@ -17,3 +17,11 @@
     margin-top: 30px;
   }
 }
+@media (max-width:479px) {
+  .about__pictures {
+    margin-top: 23px;
+  }
+  .about__pictures:nth-child(2) {
+    margin-top: 30px;
+  }
+}

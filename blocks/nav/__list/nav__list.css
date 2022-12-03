@@ -32,3 +32,10 @@
     width: 46vw;
   }
 }
+@media (max-width: 479px) {
+  .nav__list {
+    font-size: 12px;
+    width: 62vw;
+    line-height: 18px;
+  }
+}

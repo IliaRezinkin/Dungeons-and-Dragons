@@ -7,3 +7,8 @@
     padding-top: 46px;
   }
 }
+@media (max-width: 479px) {
+  .header__nav {
+    padding-top: 98px;
+  }
+}
