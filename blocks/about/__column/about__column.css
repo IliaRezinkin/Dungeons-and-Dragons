@@ -8,3 +8,12 @@
     width: 44.5vw;
   }
 }
+@media (max-width:1023px) {
+  .about__column {
+    width: 81vw;
+    margin-top: 47px;
+  }
+  .about__column:first-child {
+    margin-top: 109px;
+  }
+}

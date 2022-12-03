@@ -10,3 +10,8 @@
     line-height: 90px;
   }
 }
+@media (max-width: 1023px) {
+  .header__title {
+    line-height: 83px;
+  }
+}

@@ -13,3 +13,8 @@
     width: 51vw;
   }
 }
+@media (max-width:1279px) {
+  .footer__info {
+    width: 69vw;
+  }
+}

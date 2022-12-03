@@ -22,5 +22,7 @@
 @media (max-width: 1023px) {
   .nav__list {
     font-size: 14px;
+    width: 29vw;
+    margin-left: 58px;
   }
 }

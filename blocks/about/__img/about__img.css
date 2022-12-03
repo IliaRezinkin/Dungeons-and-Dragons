@@ -1,3 +1,9 @@
 .about__img {
   height: 27vw;
 }
+
+@media (max-width:1023px) {
+  .about__img {
+    height: 49vw;
+  }
+}
