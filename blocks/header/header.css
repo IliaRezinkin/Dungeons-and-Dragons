@@ -5,3 +5,9 @@
   text-transform: uppercase;
   font-family: "Anton";
 }
+
+@media (max-width: 1279px) {
+  .header {
+    background: top / 125% no-repeat url('../../images/header/header-bg.jpg');
+  }
+}

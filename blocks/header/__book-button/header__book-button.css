@@ -12,3 +12,14 @@
   letter-spacing: 0.1em;
   cursor: pointer;
 }
+
+@media (max-width:1279px) {
+  .header__book-button {
+    font-size: 15px;
+    line-height: 23px;
+    font-size: 15px;
+    width: 192px;
+    height: 40px;
+    line-height: 23px;
+  }
+}

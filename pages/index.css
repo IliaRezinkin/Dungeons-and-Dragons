@@ -25,6 +25,7 @@
 @import '../blocks/nav/__panel/nav__panel.css';
 @import '../blocks/nav/__phone-number/nav__phone-number.css';
 @import '../blocks/nav/__picture/nav__picture.css';
+@import '../blocks/nav/__link/nav__link.css';
 /* About */
 @import '../blocks/about/about.css';
 @import '../blocks/about/__column/about__column.css';

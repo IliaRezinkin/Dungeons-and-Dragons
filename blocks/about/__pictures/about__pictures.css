@@ -3,3 +3,9 @@
   margin-top: 51px;
   justify-content: space-between;
 }
+
+@media (max-width:1279px) {
+  .about__pictures {
+    margin-top: 29px;
+  }
+}

@@ -4,3 +4,10 @@
   line-height: 34px;
   letter-spacing: 0.1em;
 }
+
+@media (max-width:1279px) {
+  .header__subtitle {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
